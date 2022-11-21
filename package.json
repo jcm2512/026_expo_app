@@ -9,13 +9,23 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@expo/vector-icons": "^13.0.0",
+    "@expo/webpack-config": "^0.17.2",
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.5.9",
     "expo": "~47.0.6",
+    "expo-image-picker": "~14.0.2",
     "expo-status-bar": "~1.4.2",
     "react": "18.1.0",
-    "react-native": "0.70.5"
+    "react-dom": "18.1.0",
+    "react-native": "0.70.5",
+    "react-native-web": "~0.18.9",
+    "webpack-hot-middleware": "^2.25.3"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9"
+  },
+  "resolutions": {
+    "react-error-overlay": "6.0.9"
   },
   "private": true
 }
